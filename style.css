@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0b0b12;
+    color: white;
+    line-height: 1.6;
+}
+
+
+header {
+    padding: 20px 10%;
+    position: sticky;
+    top: 0;
+    background: #0b0b12cc;
+    backdrop-filter: blur(10px);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav h2 {
+    color: #7c5cff;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.hero h1 {
+    font-size: 60px;
+}
+
+
+.hero p {
+    max-width: 600px;
+    color: #aaa;
+    margin: 20px;
+}
+
+
+.button {
+    background: #7c5cff;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+
+.section {
+    max-width: 900px;
+    margin: auto;
+    padding: 80px 20px;
+}
+
+
+.section h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+
+.card {
+    background: #151520;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 25px;
+    border: 1px solid #242438;
+}
+
+
+.card h3 {
+    color: #7c5cff;
+    margin-bottom: 10px;
+}
+
+
+.card video {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
