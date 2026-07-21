@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,36 +16,90 @@
 <body>
 
 
+<div class="cursor-glow"></div>
+
+
 <nav>
 
-<h2>DODO</h2>
+<div class="logo">
+DODO
+</div>
 
-<div>
+
+<div class="links">
+
 <a href="#about">About</a>
+<a href="#expertise">Expertise</a>
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
+
 </div>
 
 </nav>
 
 
 
+
+
 <section class="hero">
+
+
+<div class="hero-content">
+
+
+<p class="small-title">
+ROBLOX DEVELOPER
+</p>
+
 
 <h1>
 <span id="typing"></span>
 </h1>
 
+
 <p>
-Roblox Luau Developer specializing in backend systems,
-frameworks, and scalable gameplay architecture.
+
+Building scalable Roblox systems with
+4 years of Luau experience.
+
 </p>
 
-<a href="#projects">
-View Projects
+
+
+<a href="#projects" class="button">
+View Work
 </a>
 
+
+</div>
+
+
+
+<div class="floating-card">
+
+
+<p>
+Currently building:
+</p>
+
+
+<h3>
+Luau Systems
+</h3>
+
+
+<span>
+Frameworks • UI • Backend
+</span>
+
+
+</div>
+
+
+
 </section>
+
+
 
 
 
@@ -53,49 +108,43 @@ View Projects
 <section id="about" class="section">
 
 
-<h2>About Me</h2>
+<h2>
+About Me
+</h2>
 
 
-<div class="about-card">
+
+<div class="about-box">
+
 
 <p>
 
-I'm Dodo, a Roblox developer with 4 years of experience
-creating systems using Luau.
-
-I specialize in building clean and reusable frameworks,
-server architecture, gameplay systems, and developer tools.
-
-My focus is not only making things work, but creating
-systems that are easy to expand, maintain, and use.
+I'm Dodo, a Roblox developer specializing in Luau
+system development.
 
 </p>
 
 
-<div class="stats">
+<p>
 
-<div>
-<h3>4+</h3>
-<p>Years Luau</p>
-</div>
+For the past 4 years, I have focused on creating
+organized, reusable systems that are easy to expand
+and maintain.
 
-
-<div>
-<h3>Backend</h3>
-<p>System Development</p>
-</div>
+</p>
 
 
-<div>
-<h3>Always</h3>
-<p>Learning</p>
-</div>
+<p>
+
+I enjoy designing frameworks, solving complex
+problems, and turning ideas into polished gameplay
+experiences.
+
+</p>
 
 
 </div>
 
-
-</div>
 
 
 </section>
@@ -104,25 +153,102 @@ systems that are easy to expand, maintain, and use.
 
 
 
-<section class="section">
 
 
-<h2>Skills</h2>
+
+<section id="expertise" class="section">
 
 
-<div class="skills">
+<h2>
+Core Expertise
+</h2>
 
-<span>Luau</span>
-<span>Roblox API</span>
-<span>Module Architecture</span>
-<span>UI Systems</span>
-<span>Data Systems</span>
-<span>C++</span>
+
+
+<div class="grid">
+
+
+
+<div class="card">
+
+<h3>
+Luau Architecture
+</h3>
+
+<p>
+
+Building modular systems with clean structure,
+reusable modules, and developer-friendly APIs.
+
+</p>
 
 </div>
 
 
+
+
+<div class="card">
+
+<h3>
+Roblox Systems
+</h3>
+
+<p>
+
+Creating gameplay systems focused on reliability,
+performance, and scalability.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+UI Engineering
+</h3>
+
+<p>
+
+Designing responsive interfaces with animations
+and smooth user interaction.
+
+</p>
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+<h3>
+Framework Design
+</h3>
+
+<p>
+
+Creating systems that can grow into larger
+projects without becoming difficult to maintain.
+
+</p>
+
+</div>
+
+
+
+</div>
+
+
+
 </section>
+
 
 
 
@@ -132,25 +258,54 @@ systems that are easy to expand, maintain, and use.
 <section id="projects" class="section">
 
 
-<h2>Projects</h2>
+<h2>
+Featured Project
+</h2>
+
 
 
 
 <div class="project">
 
 
-<h3>Notification Framework</h3>
+
+<div class="project-info">
+
+
+<h3>
+Notification System
+</h3>
 
 
 <p>
 
-A customizable Roblox notification system featuring
-animations, queue handling, and a clean API.
-
-Designed to handle multiple notifications without
-UI conflicts.
+A custom Roblox notification framework built using
+Luau.
 
 </p>
+
+
+<p>
+
+Features:
+
+</p>
+
+
+<ul>
+
+<li>Animated notifications</li>
+<li>Queue handling</li>
+<li>Reusable API</li>
+<li>Multiple notification support</li>
+<li>Clean module structure</li>
+
+</ul>
+
+
+</div>
+
+
 
 
 <video controls>
@@ -160,54 +315,40 @@ UI conflicts.
 </video>
 
 
-</div>
-
-
-
-
-<div class="project">
-
-
-<h3>Inventory Framework</h3>
-
-
-<p>
-
-A modular inventory architecture designed with
-expandability in mind.
-
-Features planned include:
-grid-based storage, weight limits,
-hotbar systems, and plugin support.
-
-</p>
-
-
-</div>
-
-
-
-
-<div class="project">
-
-
-<h3>Procedural Terrain System</h3>
-
-
-<p>
-
-A terrain generation system using noise algorithms
-for creating dynamic environments with chunk loading
-and optimization.
-
-</p>
-
 
 </div>
 
 
 
 </section>
+
+
+
+
+
+
+
+<section class="section">
+
+
+<h2>
+Development Philosophy
+</h2>
+
+
+
+<div class="quote">
+
+
+"Good systems are not only made to work.
+They are made to be understood."
+
+</div>
+
+
+
+</section>
+
 
 
 
@@ -217,7 +358,10 @@ and optimization.
 <section id="contact" class="section contact">
 
 
-<h2>Contact</h2>
+<h2>
+Contact
+</h2>
+
 
 
 <p>
@@ -226,46 +370,96 @@ Discord:
 </p>
 
 
-</section>
 
+</section>
 
 
 
 
 <footer>
 
-© 2026 Dodo
+DODO • Luau Developer
 
 </footer>
 
 
 
 
-
 <script>
 
-const text = "Hi, I'm Dodo";
-let i = 0;
 
-function type(){
+const text = "Hi, I'm Dodo.";
 
-if(i < text.length){
+let index = 0;
 
-document.getElementById("typing").innerHTML += text[i];
 
-i++;
+function typing(){
 
-setTimeout(type,80);
+if(index < text.length){
+
+document.querySelector("#typing").innerHTML += text[index];
+
+index++;
+
+setTimeout(typing,90);
 
 }
 
 }
 
-type();
+
+typing();
+
+
+
+
+
+const glow = document.querySelector(".cursor-glow");
+
+
+document.addEventListener("mousemove",(e)=>{
+
+glow.style.left = e.clientX+"px";
+
+glow.style.top = e.clientY+"px";
+
+});
+
+
+
+
+
+const cards=document.querySelectorAll(".card,.project");
+
+
+const observer=new IntersectionObserver(entries=>{
+
+
+entries.forEach(entry=>{
+
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+
+});
+
+
+});
+
+
+
+cards.forEach(card=>observer.observe(card));
+
 
 
 </script>
 
 
+
 </body>
+
 </html>
