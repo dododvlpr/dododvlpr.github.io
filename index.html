@@ -1,103 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dodo | Luau Developer</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dodo | Luau Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-<header>
-    <nav>
-        <h2>DODO</h2>
-        <div>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
-</header>
+
+<nav>
+
+<h2>DODO</h2>
+
+<div>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+
+</nav>
+
 
 
 <section class="hero">
-    <h1>Hi, I'm Dodo</h1>
-    <p>
-        Roblox Luau Developer with 4 years of experience
-        building systems, frameworks, and interactive experiences.
-    </p>
 
-    <a class="button" href="#projects">View Projects</a>
+<h1>
+<span id="typing"></span>
+</h1>
+
+<p>
+Roblox Luau Developer specializing in backend systems,
+frameworks, and scalable gameplay architecture.
+</p>
+
+<a href="#projects">
+View Projects
+</a>
+
 </section>
+
+
+
 
 
 <section id="about" class="section">
-    <h2>About Me</h2>
 
-    <p>
-        I'm Dodo, a Roblox developer specializing in Luau scripting.
-        I have 4 years of experience creating gameplay systems,
-        UI frameworks, tools, and optimized server/client solutions.
-        
-        I enjoy building clean, scalable systems and improving my
-        skills through challenging projects.
-    </p>
+
+<h2>About Me</h2>
+
+
+<div class="about-card">
+
+<p>
+
+I'm Dodo, a Roblox developer with 4 years of experience
+creating systems using Luau.
+
+I specialize in building clean and reusable frameworks,
+server architecture, gameplay systems, and developer tools.
+
+My focus is not only making things work, but creating
+systems that are easy to expand, maintain, and use.
+
+</p>
+
+
+<div class="stats">
+
+<div>
+<h3>4+</h3>
+<p>Years Luau</p>
+</div>
+
+
+<div>
+<h3>Backend</h3>
+<p>System Development</p>
+</div>
+
+
+<div>
+<h3>Always</h3>
+<p>Learning</p>
+</div>
+
+
+</div>
+
+
+</div>
+
+
 </section>
+
+
+
+
+
+<section class="section">
+
+
+<h2>Skills</h2>
+
+
+<div class="skills">
+
+<span>Luau</span>
+<span>Roblox API</span>
+<span>Module Architecture</span>
+<span>UI Systems</span>
+<span>Data Systems</span>
+<span>C++</span>
+
+</div>
+
+
+</section>
+
+
+
+
 
 
 <section id="projects" class="section">
 
-    <h2>Featured Projects</h2>
 
-    <div class="card">
-
-        <h3>Notification System</h3>
-
-        <p>
-            A custom Roblox notification framework featuring
-            animations, queue handling, and a clean developer API.
-        </p>
-
-        <video controls>
-            <source src="notifsystem.mp4" type="video/mp4">
-        </video>
-
-    </div>
+<h2>Projects</h2>
 
 
-    <div class="card">
 
-        <h3>Luau Systems</h3>
+<div class="project">
 
-        <p>
-            Building reusable modules, frameworks, and gameplay
-            systems with performance and readability in mind.
-        </p>
 
-    </div>
+<h3>Notification Framework</h3>
+
+
+<p>
+
+A customizable Roblox notification system featuring
+animations, queue handling, and a clean API.
+
+Designed to handle multiple notifications without
+UI conflicts.
+
+</p>
+
+
+<video controls>
+
+<source src="notifsystem.mp4" type="video/mp4">
+
+</video>
+
+
+</div>
+
+
+
+
+<div class="project">
+
+
+<h3>Inventory Framework</h3>
+
+
+<p>
+
+A modular inventory architecture designed with
+expandability in mind.
+
+Features planned include:
+grid-based storage, weight limits,
+hotbar systems, and plugin support.
+
+</p>
+
+
+</div>
+
+
+
+
+<div class="project">
+
+
+<h3>Procedural Terrain System</h3>
+
+
+<p>
+
+A terrain generation system using noise algorithms
+for creating dynamic environments with chunk loading
+and optimization.
+
+</p>
+
+
+</div>
+
+
 
 </section>
 
 
-<section id="contact" class="section">
 
-    <h2>Contact</h2>
 
-    <p>
-        Interested in working together?
-    </p>
 
-    <p>
-        GitHub: yourusername
-    </p>
+
+<section id="contact" class="section contact">
+
+
+<h2>Contact</h2>
+
+
+<p>
+Discord:
+<strong>dodo.lua</strong>
+</p>
+
 
 </section>
+
+
+
 
 
 <footer>
-    <p>© 2026 Dodo</p>
+
+© 2026 Dodo
+
 </footer>
+
+
+
+
+
+<script>
+
+const text = "Hi, I'm Dodo";
+let i = 0;
+
+function type(){
+
+if(i < text.length){
+
+document.getElementById("typing").innerHTML += text[i];
+
+i++;
+
+setTimeout(type,80);
+
+}
+
+}
+
+type();
+
+
+</script>
 
 
 </body>
